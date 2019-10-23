@@ -1,0 +1,4 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                            PORTS               NAMES
+5df72b50472b        tomcat              "catalina.sh run"        3 minutes ago       Exited (143) About a minute ago                       heuristic_morse
+b2beb5a4118e        nginx               "nginx -g 'daemon of…"   33 minutes ago      Up 33 minutes                     80/tcp              nostalgic_bouman
+97bfe6b463ca        mongo               "docker-entrypoint.s…"   34 minutes ago      Exited (0) About a minute ago                         sweet_clarke
