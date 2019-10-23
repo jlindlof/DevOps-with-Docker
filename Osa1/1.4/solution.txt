@@ -1,0 +1,14 @@
+docker ps -a
+CONTAINER ID        IMAGE                               COMMAND             CREATED             STATUS              PORTS               NAMES
+8819ede6f65c        devopsdockeruh/exec_bash_exercise   "node index"        10 minutes ago      Up 10 minutes                           awesome_liskov
+Jans-MBP:1.4 janlindlof$ docker exec -it 88 bash 
+root@8819ede6f65c:/usr/app# tail -f ./logs.txt
+Secret message is:
+"Docker is easy"
+Wed, 23 Oct 2019 09:03:49 GMT
+Wed, 23 Oct 2019 09:03:52 GMT
+Wed, 23 Oct 2019 09:03:55 GMT
+Wed, 23 Oct 2019 09:03:58 GMT
+Secret message is:
+"Docker is easy"
+
