@@ -1,0 +1,4 @@
+git clone https://github.com/docker-hy/spring-example-project
+docker build 1.13
+docker run -p 8080:8080 bb
+->Ok
