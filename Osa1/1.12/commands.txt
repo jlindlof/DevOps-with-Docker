@@ -1,0 +1,6 @@
+git clone https://github.com/docker-hy/backend-example-docker
+git clone https://github.com/docker-hy/frontend-example-docker
+git build 1.12/back/
+git build 1.12/front/
+docker run -it -p 8000:8000 -v "$PWD"/1.12/back/backend-example-docker:/tmp/backend-example-docker 21
+docker run -p 5000:5000 8f
