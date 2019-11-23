@@ -1,0 +1,5 @@
+git clone https://github.com/docker-hy/backend-example-docker
+docker build 1.11
+docker run -it -p 8000:8000 -v "$PWD"/1.11/backend-example-docker:/tmp/backend-example-docker 06
+-> http://localhost:8000/
+	-> logs.txt
