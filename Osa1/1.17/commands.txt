@@ -1,0 +1,16 @@
+docker build -t ubuntu/java/maven 1.17
+docker run -it ubuntu/java/maven  bash
+
+
+root@efd0107d1a28:/# java -version && mvn -v  
+openjdk version "1.8.0_222"
+OpenJDK Runtime Environment (build 1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10)
+OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+Apache Maven 3.3.9
+Maven home: /usr/share/maven
+Java version: 1.8.0_222, vendor: Private Build
+Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: ANSI_X3.4-1968
+OS name: "linux", version: "4.9.184-linuxkit", arch: "amd64", family: "unix"
+
+
