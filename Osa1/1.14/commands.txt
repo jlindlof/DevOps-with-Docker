@@ -1,0 +1,4 @@
+git clone https://github.com/docker-hy/rails-example-project
+docker build 1.14
+docker run -p 3000:3000 03
+->localhost:3000
