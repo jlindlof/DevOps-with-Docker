@@ -1,5 +1,5 @@
-docker build -t ubuntu/java/maven 1.17
-docker run -it ubuntu/java/maven  bash
+docker build -t jlindlof/ubuntujavamaven 1.17
+docker run -it jlindlof/ubuntujavamaven  bash
 
 
 root@efd0107d1a28:/# java -version && mvn -v  
