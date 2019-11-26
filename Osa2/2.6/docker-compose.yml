@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  front:
+    image: frontend-example-docker
+    ports:
+      - 5000:5000
+    environment:
+      - "API_URL=http://localhost:8000"
+
+  back:
+    image: backend-example-docker
+    ports:
+      - 8000:8000
+    environment:
+      - "FRONT_URL=http://localhost:5000" 
+      - "REDIS=redis"
+      - "DB_USERNAME=jan"
+      - "DB_PASSWORD=salainen"
+      - "DB_NAME=back"
+      - "DB_HOST=postgres"
+    depends_on: 
+      - redis
+      - postgres
+
+  redis:
+    image: redis:5
+    expose:
+      - 6379
+
+  postgres:
+    image: postgres:latest
+    environment:
+      - "POSTGRES_DB=back"
+      - "POSTGRES_USER=jan"
+      - "POSTGRES_PASSWORD=salainen"
