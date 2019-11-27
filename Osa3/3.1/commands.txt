@@ -1,0 +1,14 @@
+
+Alkutilanne:
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+backv1              latest              9eab1edd827c        3 minutes ago       294MB
+frontv1             latest              faff074cd89a        9 minutes ago       449MB
+ubuntu              16.04               5f2bf26e3524        3 weeks ago         123MB
+
+Lopputilanne:
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+backv2              latest              94e0f5b0f23b        3 minutes ago       294MB
+frontv2             latest              52b4a4b47427        9 minutes ago       294MB
+ubuntu              16.04               5f2bf26e3524        3 weeks ago         123MB
