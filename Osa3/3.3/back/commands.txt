@@ -1,0 +1,10 @@
+
+Inside container user app runs now services
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                     
+    1 app       20   0  737416  45532  26756 S   0.0  2.2   0:00.45 npm                                                                                         
+   16 app       20   0    4504    704    628 S   0.0  0.0   0:00.00 sh                                                                                          
+   17 app       20   0  561844  32060  24688 S   0.0  1.6   0:00.12 node                                                                                        
+   24 app       20   0  613968  63272  28192 S   0.0  3.1   0:01.95 node                                                                                        
+   43 app       20   0   18216   3236   2928 S   0.0  0.2   0:00.03 bash                                                                                        
+   51 app       20   0   36660   3164   2728 R   0.0  0.2   0:00.02 top 
