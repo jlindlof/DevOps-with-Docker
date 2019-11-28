@@ -1,0 +1,14 @@
+BEFORE:
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+front               latest              e0e9db9c1749        5 seconds ago       449MB
+back                latest              fa87a604e3d2        21 minutes ago      352MB
+ubuntu              16.04               56bab49eef2e        28 hours ago        123MB
+
+
+AFTER:
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+front               latest              b8517ad23674        13 minutes ago      230MB
+back                latest              c5b93d65bb58        8 seconds ago       134MB
+node                10-alpine           a0708430821e        8 days ago          75.4MB
