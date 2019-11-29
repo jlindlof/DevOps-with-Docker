@@ -1,0 +1,4 @@
+docker build -t ruby .
+
+docker run -p 3000:3000 xx
+->localhost:3000 
